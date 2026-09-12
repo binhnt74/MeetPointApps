@@ -6,9 +6,11 @@ Source code chính được lưu tại: https://github.com/binhnt74/MeetPoint
 
 ## Tải bản Android
 
-Phiên bản thử mới nhất: `0.1.0`, Android `versionCode 2`.
+Phiên bản thử mới nhất: `0.1.1`, Android `versionCode 4`.
 
 [Tải MeetPoint.apk](https://raw.githubusercontent.com/binhnt74/MeetPointApps/main/MeetPoint.apk)
+
+[Tải file theo phiên bản MeetPoint-0.1.1-v4.apk](https://raw.githubusercontent.com/binhnt74/MeetPointApps/main/MeetPoint-0.1.1-v4.apk)
 
 Quét mã dưới đây bằng điện thoại Android để tải file cài đặt:
 
@@ -36,6 +38,6 @@ Nếu chỉ muốn dùng app để test tính năng như người dùng thật, 
 
 ## Ghi chú bản này
 
-- Thêm thông báo cho tin nhắn chat mới.
-- Thêm thông báo cho thư mời mới, cập nhật thư mời, xóa thư mời và pass chủ kèo.
-- Cần chạy lại `supabase/schema.sql` trong Supabase SQL Editor để tạo bảng `notification_tokens` trước khi test notification đầy đủ.
+- Cập nhật giao diện vùng an toàn cho iPhone.
+- Hoàn thiện luồng thư mời, quán/bản đồ và thống kê tham gia.
+- Bản Android APK cài trực tiếp, dùng dữ liệu production.
